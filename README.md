@@ -2,7 +2,7 @@
 
 **Discover personalized events powered by AI. Never miss workshops, hackathons, or networking opportunities that match your interests and career goals.**
 
-## 🚀 Features
+## Features
 
 - **AI-Powered Recommendations**: Smart event suggestions based on your preferences and interests
 - **Personalized Feed**: Curated events tailored to your skills and career goals
@@ -11,7 +11,7 @@
 - **Smart Matching**: Advanced algorithm matches events with your profile using similarity scoring
 - **Dual Interface**: Separate portals for users and organizations
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB with Mongoose ODM
@@ -20,29 +20,29 @@
 - **Authentication**: JWT tokens, bcrypt encryption
 - **File Upload**: Multer for image handling
 
-## 📱 Screenshots
+## Screenshots
 
 ### Landing Page
-![Landing Page](screenshots/landing.png)
+![Landing Page](assets/screenshots/S1.webp)
 *AI-powered event discovery with personalized recommendations*
 
 ### Event Discovery
-![Event Discovery](screenshots/events.png)
+![Event Discovery](assets/screenshots/S4.webp)
 *Browse hackathons, workshops, and networking opportunities*
 
 ### Organization Explorer
-![Organizations](screenshots/organizations.png)
+![Organizations](assets/screenshots/S5.webp)
 *Discover and follow tech organizations*
 
 ### Preference Settings
-![Preferences](screenshots/preferences.png)
+![Preferences](assets/screenshots/S2.webp)
 *Set your interests for personalized recommendations*
 
 ### Event Creation
-![Event Creation](screenshots/create-event.png)
+![Event Creation](assets/screenshots/S3.webp)
 *Easy event hosting for organizations*
 
-## 🎯 Key Features
+## Key Features
 
 ### For Users
 - **Smart Feed**: AI curates events based on your tech stack and interests
@@ -55,41 +55,8 @@
 - **Audience Targeting**: Reach users with relevant interests
 - **Analytics**: Track event engagement and participation
 
-## 🚀 Getting Started
 
-### Prerequisites
-- Node.js (v14 or higher)
-- MongoDB
-- Google Gemini API key
-
-### Installation
-
-1. Clone the repository
-```bash
-git clone https://github.com/Adit8676/EventUs.git
-cd EventUs
-```
-
-2. Install dependencies
-```bash
-npm install
-```
-
-3. Set up environment variables
-```bash
-# Create .env file
-GEMINI_API_KEY=your_gemini_api_key
-MONGO_URI=your_mongodb_connection_string
-```
-
-4. Start the application
-```bash
-npm start
-```
-
-5. Open your browser and navigate to `http://localhost:3000`
-
-## 🤖 AI Recommendation System
+## AI Recommendation System
 
 EventUs uses advanced machine learning algorithms to provide personalized event recommendations:
 
@@ -98,7 +65,7 @@ EventUs uses advanced machine learning algorithms to provide personalized event 
 - **Google Gemini Integration**: Enhances recommendation accuracy with AI insights
 - **Preference Learning**: Continuously improves suggestions based on user interactions
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 EventUs/
@@ -111,7 +78,7 @@ EventUs/
 └── app.js          # Main application file
 ```
 
-## 🎨 Event Types Supported
+## Event Types Supported
 
 - **Hackathons**: Competitive programming events
 - **Workshops**: Skill-building sessions
@@ -119,26 +86,7 @@ EventUs/
 - **Networking**: Professional meetups
 - **Conferences**: Large-scale tech events
 
-## 🏆 Hackathon Project
+## Future Updates
 
-This project was developed during a hackathon, focusing on solving the problem of event discovery in the tech community. The AI-powered recommendation system helps students and professionals find relevant opportunities without missing deadlines.
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the ISC License.
-
-## 👥 Team
-
-Built with ❤️ during a hackathon by passionate developers who believe in the power of AI to connect people with opportunities.
-
----
-
-**EventUs** - Transforming how you discover and engage with tech events through the power of artificial intelligence.
+- **Social Networking**: Connect with people of same interests and form event groups, or network with others who have similar interests
+- **Calendar Integration**: Integrate with Google Calendar or Outlook so users can add upcoming events directly to their schedule with reminders
